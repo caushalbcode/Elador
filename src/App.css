@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+
+.card{
+    border: 1px solid #fff;
+    background:black ;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 400px;
+    color: #fff;
+
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ /* the slides */
+ .slick-slide > div{
+    margin: 0 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* the parent */
+.slick-list {
+    margin: 0 -10px;
+}
+.card-top > h1{
+    font-size: 1rem;
+    margin: 10px 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-top > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.App-link {
-  color: #61dafb;
+.card-bottom{
+    margin: 10px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.category{
+    position: relative;
 }
+
+/* .category::before{
+    content: '';
+    background: red;
+    position: absolute;
+    top:calc(100% + 10px);
+    left: 0;
+    right: 0;
+    height: 2px;
+} */
