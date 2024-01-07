@@ -167,7 +167,7 @@ const Home = () => {
         </div>
         
         
-      <div className=" w-full relative select-none mb-24 ">
+      {/* <div className=" w-full relative select-none mb-24 ">
           <div className="flex aspect-w-16 aspect-h-6 justify-center mt-20" >
             <img src='banner.jpeg' alt='summer' />
           </div>
@@ -181,10 +181,10 @@ const Home = () => {
             </div>
 
           </div>
+      </div> */}
+
+
       </div>
-
-
-    </div>
     </div>
   )
 }

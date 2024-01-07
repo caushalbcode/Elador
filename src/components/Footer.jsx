@@ -3,6 +3,7 @@ import {MdOutlineLocalShipping, MdOutlineCompareArrows} from 'react-icons/md'
 import {GiTakeMyMoney} from 'react-icons/gi'
 import { ImFacebook } from 'react-icons/im'
 import {BsInstagram, BsYoutube, BsPinterest, BsTwitter} from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 
 
 export default function Footer() {
@@ -39,64 +40,93 @@ export default function Footer() {
                     <div className="cursor-pointer w-12">
                         <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/footer_5_marketing_svg1.svg" alt="logo" />
                     </div>
-                    <p className="w-60 text-xl xl:text-2xl font-semibold leading-normal text-white">Elador</p>
+                    <Link to="/">
+                        <p className="w-60 text-xl xl:text-2xl font-semibold leading-normal text-white">Elador</p>
+                    </Link>
                 </div>
                 <div className="mt-12 xl:mt-0 grid grid-cols-1 sm:grid-cols-3 gap-y-12 sm:gap-y-0 w-full md:w-auto sm:gap-x-20 md:gap-x-28 xl:gap-8">
                     <div className="sm:w-40 md:w-auto xl:w-72 flex justify-start items-start flex-col space-y-6">
-                        <h2 className="text-base xl:text-xl font-bold xl:font-semibold leading-4 xl:leading-5 text-white">Community</h2>
-                        <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
-                            About Us
-                        </button>
-                        <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
-                            Guidelines and how to
-                        </button>
-                        <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
-                            Quote from the best
-                        </button>
-                        <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
-                            How to start a blog
-                        </button>
+                        <h2 className="text-base xl:text-xl font-bold xl:font-semibold leading-4 xl:leading-5 text-white">About Company</h2>
+                        <Link to="/about-us">
+                            <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
+                                About Us
+                            </button>
+                        </Link>
+                        <Link to="contact-us">
+                            <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
+                            Contact Us
+                            </button>
+                        </Link>
+                        <Link to="faq">
+                            <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
+                            FAQ
+                            </button>
+                        </Link>
+                        <Link to="track-your-order">
+                            <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
+                            Track Your Order
+                            </button>
+                        </Link>
+                        <Link to="return-request">
+                            <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
+                            Return Request
+                            </button>
+                        </Link>
                     </div>
 
                     <div className="sm:w-40 md:w-auto xl:w-72 flex justify-start items-start flex-col space-y-6">
-                        <h2 className="text-base xl:text-xl font-bold xl:font-semibold leading-4 xl:leading-5 text-white">Getting Started</h2>
-                        <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
-                            About Us
-                        </button>
-                        <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
-                            Guidelines and how to
-                        </button>
-                        <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
-                            Quote from the best
-                        </button>
-                        <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
-                            How to start a blog
-                        </button>
-                        <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
-                            Quote from the best
-                        </button>
-                        <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
-                            Guidelines and how to
-                        </button>
+                        <h2 className="text-base xl:text-xl font-bold xl:font-semibold leading-4 xl:leading-5 text-white">Online Shopping</h2>
+                        <Link to="new-arrivals">
+                            <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
+                            New Arrivals
+                            </button>
+                        </Link>
+                        <Link to="new-arrivals">
+                            <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
+                            Women
+                            </button>
+                        </Link>
+                        <Link to="new-arrivals">
+                            <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
+                            Men
+                            </button>
+                        </Link>
+                        <Link to="new-arrivals">
+                            <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
+                            Kids
+                            </button>
+                        </Link>
+                        <Link to="new-arrivals">
+                            <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
+                            Brands
+                            </button>
+                        </Link>
+                        
                     </div>
 
                     <div className=" xl:w-72 flex justify-start items-start flex-col space-y-6">
-                        <h2 className="text-base xl:text-xl font-bold xl:font-semibold leading-4 xl:leading-5 text-white">Resources</h2>
-                        <button className="text-base text-left hover:text-gray-400 leading-none text-gray-100">
-                            Accessibility
-                        </button>
-                        <button className="text-base text-left hover:text-gray-400 leading-none text-gray-100">
-                            Usability
-                        </button>
-                        <button className="text-base text-left hover:text-gray-400 leading-none text-gray-100">
-                            Marketplace
-                        </button>
-                        <button className="text-base text-left hover:text-gray-400 leading-none text-gray-100">
-                            Design & Dev
-                        </button>
-                        <button className="text-base text-left hover:text-gray-400 leading-none text-gray-100">
-                            Marketplace
-                        </button>
+                        <h2 className="text-base xl:text-xl font-bold xl:font-semibold leading-4 xl:leading-5 text-white">Policies</h2>
+                        <Link to="return">
+                            <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
+                            Return Policy
+                            </button>
+                        </Link>
+                        <Link to="privacy">
+                            <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
+                            Privacy Policy
+                            </button>
+                        </Link>
+                        <Link to="terms-conditions">
+                            <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
+                            Terms & Conditions
+                            </button>
+                        </Link>
+                        <Link to="shipping">
+                            <button className="text-left text-base hover:text-gray-400 leading-none text-gray-100">
+                            Shipping Information
+                            </button>
+                        </Link>
+                        
                     </div>
                 </div>
             </div>  

@@ -21,7 +21,7 @@ export default function NewArrivals() {
         </div>
         <h1 className='text-4xl font-normal font-sans ml-8 my-6'>NEW ARRIVALS</h1>
         <div className='flex'>
-          <div className='md:w-[20%] sm:w-[25%] border-r-2 '>
+          <div className='md:w-[20%] sm:w-[25%] border-r-2 sm:hidden md:block '>
             <h1 className='font-serif my-4 '>FILTER </h1>
             <div className='my-6'>
               <div onClick={()=>(setOpen(!open))} className='flex justify-between font-serif mb-2 mr-4'>
@@ -140,16 +140,16 @@ export default function NewArrivals() {
               </ul>
             </div>
           </div>
-          <div className='md:w-[80%] sm:w-[60%] ml-4 bg-[#0c4a6e]'>
+          <div className='md:w-[80%] sm:w-[60%] ml-4 '>
             <div className="w-full relative select-none">
               <div className="aspect-w-16 aspect-h-6 " >
                   <img src='NewArrivals1.jpg' alt="..." className='w-full' />
               </div>
               <div className="grid lg:grid-cols-3 md:grid-cols-2 ps:grid-cols-1 aspect-w-16 aspect-h-6 " >
-{/*       
-      1st image
       
-                <div className="block rounded-lg bg-white dark:bg-neutral-700 w-[340px] md:w[300px] m-2">
+      {/* 1st image */}
+      
+                <div className="block rounded-lg bg-white shadow-xl dark:bg-neutral-700 lg:w-[350px] md:w-[300px] m-2">
                   <img className="rounded-t-lg w-full h-72" src="tan1.jpg" alt="..."  />
                   
                   <div className="p-6">
@@ -166,10 +166,10 @@ export default function NewArrivals() {
                     </button>
                   </div>
                 </div> 
-       */}
+      
       {/* 2nd image */}
-{/*       
-                <div className="block rounded-lg bg-white dark:bg-neutral-700 w-[350px] m-2">
+     
+                <div className="block rounded-lg bg-white  shadow-xl dark:bg-neutral-700 lg:w-[350px] md:w-[300px] m-2">
                   <img className="rounded-t-lg w-full h-72" src="tan2.jpg" alt="..."  />
                   
                   <div className="p-6">
@@ -185,11 +185,11 @@ export default function NewArrivals() {
                       Button
                     </button>
                   </div>
-                </div> */}
+                </div> 
 
       {/* 3rd image */}
-{/*                 
-                <div className="block rounded-lg bg-white dark:bg-neutral-700 w-[350px] m-2">
+            
+                <div className="block rounded-lg bg-white  shadow-xl dark:bg-neutral-700 lg:w-[350px] md:w-[300px] m-2">
                   <img className="rounded-t-lg w-full h-72" src="tan3.jpg" alt="..."  />
                   
                   <div className="p-6">
@@ -206,10 +206,10 @@ export default function NewArrivals() {
                     </button>
                   </div>
                 </div>
-                 */}
+                
       {/* 4th image */}
-{/*                 
-                <div className="block rounded-lg bg-white dark:bg-neutral-700 w-[350px] m-2">
+
+                <div className="block rounded-lg bg-white shadow-xl dark:bg-neutral-700 w-[350px] m-2">
                   <img className="rounded-t-lg w-full h-72" src="tan1.jpg" alt="..."  />
                   
                   <div className="p-6">
@@ -226,10 +226,10 @@ export default function NewArrivals() {
                     </button>
                   </div>
                 </div>
-       */}
+       
       {/* 5th image */}
-{/*      
-                <div className="block rounded-lg bg-white dark:bg-neutral-700 w-[350px] m-2">
+   
+                <div className="block rounded-lg bg-white shadow-xl dark:bg-neutral-700 w-[350px] m-2">
                   <img className="rounded-t-lg w-full h-72" src="tan2.jpg" alt="..."  />
                   
                   <div className="p-6">
@@ -246,10 +246,10 @@ export default function NewArrivals() {
                     </button>
                   </div>
                 </div>
-      */}
+      
       {/* 6th image */}
-{/*      
-                <div className="block rounded-lg bg-white dark:bg-neutral-700 w-[350px] m-2">
+      
+                <div className="block rounded-lg bg-white shadow-xl dark:bg-neutral-700 w-[350px] m-2">
                   <img className="rounded-t-lg w-full h-72" src="tan3.jpg" alt="..."  />
                   
                   <div className="p-6">
@@ -265,10 +265,10 @@ export default function NewArrivals() {
                       Button
                     </button>
                   </div>
-                </div> */}
+                </div> 
      
      {/* 7ht image */}
-                {/* <div className="block rounded-lg bg-white dark:bg-neutral-700 w-[350px] m-2">
+                <div className="block rounded-lg bg-white shadow-xl dark:bg-neutral-700 w-[350px] m-2">
                   <img className="rounded-t-lg w-full h-72" src="tan1.jpg" alt="..."  />
                   
                   <div className="p-6">
@@ -284,11 +284,11 @@ export default function NewArrivals() {
                       Button
                     </button>
                   </div>
-                </div> */}
+                </div>
     
     {/* 8th iamge */}
         
-                {/* <div className="block rounded-lg bg-white dark:bg-neutral-700 w-[350px] m-2">
+                <div className="block rounded-lg bg-white shadow-xl dark:bg-neutral-700 w-[350px] m-2">
                   <img className="rounded-t-lg w-full h-72" src="tan2.jpg" alt="..."  />
                   
                   <div className="p-6">
@@ -304,12 +304,12 @@ export default function NewArrivals() {
                       Button
                     </button>
                   </div>
-                </div> */}
+                </div>
 
      {/* 9th image           */}
     
                 <div className="block rounded-lg bg-white dark:bg-neutral-700 w-[350px] m-2">
-                  <img className="rounded-t-lg w-full h-72" src="tan3.jpg" alt="..."  />
+                  <img className="rounded-t-lg w-[300px]" src="tan3.jpg" alt="..."  />
                   
                   <div className="p-6">
                     <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
