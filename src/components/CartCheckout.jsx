@@ -12,7 +12,7 @@ const CartCheckout = () => {
   return (
     <div className='w-full h-full mt-32'>
         <div className='flex flex-wrap mb-8 justify-center mx-6 '>
-            <div className='md:px-16 sm:px-8 bg-white md:ml-6 mr-0 my-6 sm:mx-2 md:mx-0 xl:rounded-l-lg border-2 shadow-md'>
+            <div className='md:px-16 sm:px-8 bg-white md:ml-6 mr-0 my-6 sm:mx-2 md:mx-0 xl:rounded-l-lg border-2 shadow-md '>
                 <h1 className='text-3xl font-semibold font-serif text-center my-8'>Shopping Cart</h1>
                 <hr className='w-full h-1 my-2'></hr>
                 <div className='flex my-4 space-x-10'>

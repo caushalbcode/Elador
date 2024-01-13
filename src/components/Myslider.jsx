@@ -55,7 +55,7 @@ const Myslider = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
+          initialSlide: 0
         }
       },
       {
@@ -68,13 +68,13 @@ const Myslider = () => {
     ]
   };
   return (
-    <div className='relative m-20 aspect-w-16 aspect-h-6 lg:mt-24 md:mt-28 ps:mt-32'>
+    <div className='relative ps:mx-3 sm:m-8 md:m-16 aspect-w-16 aspect-h-6 lg:mt-24 md:mt-28 ps:mt-6'>
       
       <Slider {...settings}>
         {dataSlider.map(item=>(
           <div className='card md:'>
             <div className='card-top'>
-              <img src={item.src} alt="" className='w-[80%] h-full object-cover m-auto'/>
+              <img src={item.src} alt="#" className='md:w-[80%] h-full object-cover m-auto'/>
               <h1 className='text-sm my-5 mx-1 font-serif'>{item.desc}</h1>
             </div>
             <div className='card-bottom font-serif mt-4'>

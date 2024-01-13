@@ -11,16 +11,16 @@ export default function Footer() {
     <div className='w-full overflow-hidden'>
         <div className='flex justify-around space-x-8 px-4 h-full text-center my-5'>
                         <div className="mt-20">
-                            <MdOutlineLocalShipping className='m-auto lg:text-4xl md:text-3xl ps:text-2xl text-[#0c4a6e] my-4 '/>
-                            <p className='font-serif'>Free Shipping For <br /> All Orders</p>
+                            <MdOutlineLocalShipping className='m-auto lg:text-4xl md:text-3xl sm:text-3xl ps:text-2xl text-[#0c4a6e] my-4 '/>
+                            <p className='font-serif ps:text-[10px] sm:text-lg'>Free Shipping For <br /> All Orders</p>
                         </div>
                         <div className="mt-20">
-                            <MdOutlineCompareArrows className='m-auto lg:text-4xl md:text-3xl ps:text-2xl  text-[#0c4a6e] my-4'/>
-                            <p className='font-serif '>Reverse Pickup</p>
+                            <MdOutlineCompareArrows className='m-auto lg:text-4xl md:text-3xl sm:text-3xl ps:text-2xl  text-[#0c4a6e] my-4'/>
+                            <p className='font-serif ps:text-[10px] sm:text-lg'>Reverse Pickup</p>
                         </div>
                         <div className="mt-20">
-                            <GiTakeMyMoney className='m-auto lg:text-4xl md:text-3xl ps:text-2xl text-[#0c4a6e] my-4'/>
-                            <p className='font-serif '>Fixed COD</p>
+                            <GiTakeMyMoney className='m-auto lg:text-4xl md:text-3xl sm:text-3xl ps:text-2xl text-[#0c4a6e] my-4'/>
+                            <p className='font-serif ps:text-[10px] sm:text-lg'>Fixed COD</p>
                         </div>
                 </div>
                 <div className='text-center'>
@@ -130,23 +130,9 @@ export default function Footer() {
                     </div>
                 </div>
             </div>  
-            <div className="mt-12 flex  xl:justify-between xl:flex-row flex-col-reverse items-center xl:items-start w-full ">
+            <div className="mt-12 flex  xl:justify-between xl:flex-row flex-col-reverse items-center xl:items-start w-full pb-3">
                 <p className="mt-10 md:mt-12 xl:mt-0 text-sm leading-none text-white" >2020 The Good Company. All Rights Reserved</p>
-                <div className="mt-10 md:mt-12 xl:mt-0 md:flex-row flex-col flex md:justify-center w-full md:w-auto justify-start items-start space-y-4 md:space-y-0 md:items-center md:space-x-4 xl:space-x-6">
-                    <button className="text-base leading-none text-white hover:text-gray-300">
-                        Terms of service
-                    </button>
-                    <button className="text-base leading-none text-white hover:text-gray-300">
-                        Privacy Policy
-                    </button>
-                    <button className="text-base leading-none text-white hover:text-gray-300">
-                        Security
-                    </button>
-                    <button className="text-base leading-none text-white hover:text-gray-300">
-                        Sitemap
-                    </button>
-                </div>
-                <div className="flex  justify-start md:justify-end items-start  w-full md:w-auto md:items-center space-x-6 pb-8 ">
+                <div className="flex justify-start md:justify-end items-start w-full md:w-auto md:items-center space-x-6 pb-8 ">
                     <button className="text-white hover:text-gray-200 w-6">
                     <ImFacebook />
                     </button>
